@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "buytiti-footer-redes/buytiti-footer-redes",
+  "version": "0.1.0",
+  "title": "Buytiti-footer-redes",
+  "category": "widgets",
+  "icon": "facebook",
+  "description": "Barra inferior como footer para iconos de  redes sociales",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "buytiti-footer-redes",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
