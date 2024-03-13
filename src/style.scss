@@ -1,8 +1,19 @@
-.footer-social-icons {
+.footer-container {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
-    background-color: #ef7e28;
+    background-color: #ef7e28;;
+    color: #fff;
+    position: relative; /* Agrega posición relativa al contenedor */
+}
+
+.footer-social-icons {
+    position: absolute; /* Posiciona los íconos de forma absoluta */
+    right: 0; /* Alinea los íconos a la derecha */
+    top: 50%; /* Centra los íconos verticalmente */
+    transform: translateY(-50%); /* Ajusta la posición vertical de los íconos */
 }
 
 .footer-social-icons a {
@@ -10,7 +21,12 @@
 }
 
 .footer-social-icons img {
-    width: 40px;
-    height: 40px;
-    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+    margin-right: 22px;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 10px;
 }

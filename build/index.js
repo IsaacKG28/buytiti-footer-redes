@@ -24,6 +24,10 @@ function Edit() {
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...(0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)()
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "footer-container"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "footer-text"
+  }, "Buytiti \xA9 2024"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "footer-social-icons"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "https://www.facebook.com/Buytitioficial",
@@ -53,7 +57,7 @@ function Edit() {
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
     src: "/wordpress/wp-content/uploads/youtube.png",
     alt: "Youtube"
-  }))));
+  })))));
 }
 
 /***/ }),
@@ -161,7 +165,9 @@ function save() {
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
     src: "/wordpress/wp-content/uploads/youtube.png",
     alt: "Youtube"
-  }))));
+  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    className: "footer-text"
+  }, "Buytiti \xA9 2024")));
 }
 
 /***/ }),

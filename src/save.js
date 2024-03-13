@@ -16,6 +16,9 @@ export default function save() {
                 <a href="https://www.youtube.com/channel/UCOvwAWXYINp6521E66WgLEw" target="_blank" rel="noopener noreferrer">
                     <img src="/wordpress/wp-content/uploads/youtube.png" alt="Youtube" />
                 </a>
+                <p className="footer-text">
+                    Buytiti © 2024
+                </p>
             </div>
         </div>
     );
